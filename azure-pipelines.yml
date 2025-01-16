@@ -11,3 +11,8 @@ steps:
     displayName: "Build Step"
   - script: echo "Running tests..."
     displayName: "Test Step"
+  - script: echo "Deploying to environment..."
+    displayName: "Deploy Step"
+  - script: echo "This is a new step" 
+    displayName: "New Step"
+
