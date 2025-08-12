@@ -17,3 +17,6 @@ jobs:
 
       - name: Test Step
         run: echo "Running tests..."
+
+      - name: Deploy Step
+        run: echo "Deploying the project..."
