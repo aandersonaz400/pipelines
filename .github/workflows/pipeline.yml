@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-build-template:
-    uses: .github/workflows/build-template.yml@main
+    uses: ./.github/workflows/build-template.yml@main
     with:
       name: WebApp
       os: ubuntu-latest
